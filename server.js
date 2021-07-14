@@ -8,6 +8,8 @@ var htmlR = require("./routes/HTMLroutes");
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));  // without this Req in routes - req.body will be undefined
 
+app.use(express.static("public"));
+
 
 //Routes
 app.use(api);
