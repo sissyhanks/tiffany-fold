@@ -7,10 +7,12 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "watch": "nodemon server.js"
+
   },
   "author": "Bernie McKnight",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "uniqid": "^5.3.0"
   }
 }

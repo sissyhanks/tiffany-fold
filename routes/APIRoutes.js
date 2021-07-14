@@ -1,5 +1,6 @@
 const app = require("express").Router();
 const fs = require("fs");
+var uniqid = require('uniqid');
 
 app.get("/api/notes", (req, res) => {
     fs.readFile("./db/db.json", "utf8", (err, dbNotes) => {
@@ -10,6 +11,7 @@ app.get("/api/notes", (req, res) => {
 
 app.post("/api/notes", (req, res) => {
     let newNote = {
+        noteId: uniqid('note'),
         noteTitle: req.body.noteTitle,
         noteText: req.body.noteText
     };
