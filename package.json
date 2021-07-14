@@ -1,6 +1,6 @@
 {
-  "name": "Note Taker",
-  "version": "1.0.0",
+  "name": "note-taker",
+  "version": "14.16.1",
   "description": "note taking app",
   "main": "server.js",
   "scripts": {
