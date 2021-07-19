@@ -1,6 +1,6 @@
 # Note Taker
 
-![Note Taker App](./Assets/demo.gif)
+![Note Taker App](./Assets/note.png)
 
 [LIVE DEMO](https://sheltered-forest-61586.herokuapp.com/)
 
